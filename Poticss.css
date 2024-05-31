@@ -1,0 +1,68 @@
+body {
+
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background-color: #1f1c1c;
+    
+}
+
+.porti{
+
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+
+}
+.descrip{
+
+    width: 550px;
+    margin-top: 40px;
+    margin-left: -2px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+
+}
+#rst{
+
+    margin-top: 300px;
+    margin-right: 60px;
+    font-size: 18px;
+    color: white;
+    font-weight: lighter;
+
+}
+
+.profile {
+
+    margin-top: 150px;
+    margin-left: 300px;
+    width: 200px;
+
+
+}
+.profile img {
+
+    width: 300px;
+    animation: 22px;
+    filter: grayscale(100%);
+    transition: 0.7s ease;
+    cursor: pointer;
+    border-radius: 50%;
+    rotate: -10deg;
+    border-width: var(10px);
+
+}
+
+.profile img:hover {
+
+    transform: scale(1.1);
+    rotate: 10deg;
+    filter: grayscale(0%);
+
+}
