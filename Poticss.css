@@ -5,6 +5,8 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #1f1c1c;
+    aling-items: center;
+    justify-content: center;
     
 }
 
